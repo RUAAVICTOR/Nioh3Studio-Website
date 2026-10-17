@@ -1622,5 +1622,9 @@
   "装备词条生成源码": {
     "en": "Equipment effect-generation source",
     "tw": "裝備詞條生成原始碼"
+  },
+  "复制提取码": {
+    "en": "Copy access code",
+    "tw": "複製提取碼"
   }
 }

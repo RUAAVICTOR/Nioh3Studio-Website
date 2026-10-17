@@ -4,7 +4,8 @@ import {fileURLToPath} from 'node:url';
 import {demoUI} from './shared/demo-ui.mjs';
 import {engineSection} from './shared/engine-section.mjs';
 import {seoHead} from './seo.mjs';
-import {localizeTemplate,writeTranslations} from './i18n/compile.mjs';
+import {localizeTemplate,writeTranslations,registerTranslations} from './i18n/compile.mjs';
+import {validateDownloads,renderDomesticDownloads} from './shared/downloads.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const repo='https://github.com/Master-Bayesian/Nioh3-Scroll-Generator';
 const options=[{id:'a'}];
@@ -24,7 +25,9 @@ const peopleIcon=icon('<circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 
 const translateIcon=icon('<path d="M3 5h12M9 3v2M5 5c1 5 4 8 8 10M13 5c-1 5-4 8-9 11M14 21l4-10 4 10m-6.7-3h5.4"/>');
 const themeIcon=icon('<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/>','class="icon-moon"')+icon('<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>','class="icon-sun"');
 const headerActions=`<nav class="header-actions" aria-label="链接与偏好"><a class="header-link header-github" href="${repo}" aria-label="GitHub">${githubIcon}<span class="header-link-label">GitHub</span></a><a class="header-link header-docs" href="${repo}#readme" aria-label="文档">${bookIcon}<span class="header-link-label">文档</span></a><details class="header-popover qq-menu"><summary aria-label="QQ群" title="QQ群">${peopleIcon}<span class="header-link-label">QQ 群</span></summary><div class="popover-panel qq-panel"><p>QQ 交流群</p><div class="group-number"><code id="qq-number">1106302479</code><button type="button" data-copy-group>复制</button></div><a class="group-join" href="${qqUrl.replaceAll('&','&amp;')}" target="_blank" rel="noopener">加入QQ群 <span aria-hidden="true">↗</span></a><span class="sr-only" data-copy-status role="status"></span></div></details><span class="header-divider" aria-hidden="true"></span><details class="header-popover language-menu"><summary class="round-control" aria-label="选择语言" title="选择语言">${translateIcon}<span class="language-label sr-only">简体中文</span></summary><div class="popover-panel language-panel" role="group" aria-label="语言"><button type="button" data-locale="zh-CN" aria-current="true">简体中文</button><button type="button" data-locale="zh-TW" lang="zh-Hant">繁體中文</button><button type="button" data-locale="en-US" lang="en">English</button></div></details><button class="theme-toggle icon-button round-control" type="button" aria-label="切换到深色模式" aria-pressed="false" hidden>${themeIcon}</button></nav>`;
-const domesticDownload=`<details class="domestic-download"><summary class="secondary">国内下载 ${icon('<path d="m6 9 6 6 6-6"/>','class="download-chevron"')}</summary><div class="download-panel"><div class="download-channel"><a href="https://wwbji.lanzoue.com/b01i5xi69c" target="_blank" rel="noopener"><b>蓝奏云</b><span aria-hidden="true">↗</span></a><div class="download-password"><span>密码</span><code id="lanzou-password">89m5</code><button type="button" data-copy-download-password aria-label="复制蓝奏云密码">复制</button></div></div><div class="download-channel"><a href="https://pan.baidu.com/s/13gGqNPhJTwpOLXzdx1wv_g?pwd=RUAA" target="_blank" rel="noopener"><b>百度网盘</b><span aria-hidden="true">↗</span></a><p>提取码已填入链接</p></div><span class="sr-only" data-download-status role="status"></span></div></details>`;
+const downloads=validateDownloads(JSON.parse(await fs.readFile(path.join(root,'downloads.json'),'utf8')));
+const downloadNameKeys=registerTranslations(Object.fromEntries(downloads.channels.map(channel=>[channel.name['zh-CN'],{en:channel.name['en-US'],tw:channel.name['zh-TW']}])));
+const domesticDownload=renderDomesticDownloads(downloads,icon('<path d="m6 9 6 6 6-6"/>','class="download-chevron"'),downloadNameKeys);
 const screens=[
   {id:'equipment',label:'装备与道具',title:'查看与编辑装备',copy:'分类浏览存档中的装备与道具，查看物品详情，修改装备等级、属性和词条。',image:'equipment.png',width:1568,height:918,alt:'装备与道具界面：左侧为武器列表，右侧为装备属性与词条。'},
   {id:'search',label:'绘卷搜索',title:'搜索与添加绘卷',copy:'按词条、恩宠和敌人筛选绘卷，预览结果后选择游戏内实时添加，或添加到存档。',image:'search.png',width:1568,height:918,alt:'绘卷搜索界面：筛选条件、搜索结果及绘卷详细效果。'},

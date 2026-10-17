@@ -4,10 +4,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {normalizeIndent} from '../shared/code-excerpts.mjs';
+import {validateDownloads,downloadHref,renderDomesticDownloads} from '../shared/downloads.mjs';
+import {escapeHTML} from '../seo.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const output=path.resolve(process.env.WEBSITE_TEST_DIST??path.join(root,'dist'));
 const report=JSON.parse(await fs.readFile(path.join(output,'build-report.json'),'utf8'));
 const source=JSON.parse(await fs.readFile(path.join(root,'shared/engine-excerpts.json'),'utf8'));
+const downloads=validateDownloads(JSON.parse(await fs.readFile(path.join(root,'downloads.json'),'utf8')));
 
 for(const [locale,route] of [['zh-CN',''],['zh-TW','zh-hant/'],['en-US','en/']]){
   test(`crawlable ${locale} page and assets`,async()=>{
@@ -24,6 +27,11 @@ for(const [locale,route] of [['zh-CN',''],['zh-TW','zh-hant/'],['en-US','en/']])
     assert.ok(html.includes('data-engine-tab="equipment-effects"'));
     assert.equal((html.match(/class="engine-code-line"/g)||[]).length,50);
     assert.ok(html.includes('https://github.com/Master-Bayesian/Nioh3-Scroll-Generator/releases/latest'));
+    for(const channel of downloads.channels){
+      assert.ok(html.includes(`href="${downloadHref(channel).replaceAll('&','&amp;')}"`));
+      assert.ok(html.includes(escapeHTML(channel.name[locale])));
+      if(channel.password&&!channel.passwordQuery)assert.ok(html.includes(`translate="no">${escapeHTML(channel.password)}</code>`));
+    }
     if(locale==='en-US'){
       assert.ok(html.includes('<details hidden class="header-popover qq-menu"'));
       assert.ok(html.includes('<details hidden class="domestic-download"'));
@@ -48,7 +56,7 @@ for(const [locale,route] of [['zh-CN',''],['zh-TW','zh-hant/'],['en-US','en/']])
 
 test('deployment output contains only public website files',async()=>{
   await fs.access(path.join(output,'.nojekyll'));
-  for(const name of ['generate.mjs','package.json','.git','.github','engine-excerpts.json','node_modules','README.md']){
+  for(const name of ['generate.mjs','package.json','.git','.github','engine-excerpts.json','node_modules','README.md','downloads.json','shared/downloads.mjs']){
     assert.equal(await fs.access(path.join(output,name)).then(()=>true,()=>false),false,name);
   }
   const robots=await fs.readFile(path.join(output,'robots.txt'),'utf8');
@@ -75,4 +83,35 @@ test('snapshots preserve the requested original source ranges',()=>{
   assert.equal(text.split('\n').length,14);
   const effects=source.panels['equipment-effects'].fragments[0];
   assert.equal(effects.startLine,692);assert.equal(effects.endLine,715);
+});
+
+test('download config rejects broken destinations and ambiguous channels',()=>{
+  const channel={id:'mirror',name:{'zh-CN':'测试','zh-TW':'測試','en-US':'Test'},url:'https://downloads.example/files',password:'abc'};
+  for(const url of ['javascript:alert(1)','http://downloads.example/','https://user:secret@downloads.example/','not a URL']){
+    assert.throws(()=>validateDownloads({channels:[{...channel,url}]}));
+  }
+  assert.throws(()=>validateDownloads({channels:[channel,channel]}));
+  assert.throws(()=>validateDownloads({channels:[{...channel,id:undefined}]}));
+  assert.throws(()=>validateDownloads({channels:[{...channel,password:1234}]}));
+  assert.throws(()=>validateDownloads({channels:[{...channel,name:{'zh-CN':'测试'}}]}));
+});
+
+test('one password field overrides a stale embedded query code',()=>{
+  const channel={url:'https://downloads.example/s/file?pwd=old&keep=yes',password:'new code&value',passwordQuery:'pwd'};
+  const url=new URL(downloadHref(channel));
+  assert.equal(url.searchParams.get('pwd'),'new code&value');
+  assert.equal(url.searchParams.get('keep'),'yes');
+  assert.equal(new URL(downloadHref({...channel,password:''})).searchParams.has('pwd'),false);
+});
+
+test('download markup escapes maintained text and supports multiple copy codes',()=>{
+  const config={channels:[
+    {id:'one',name:{'zh-CN':'镜像 <A>'},url:'https://downloads.example/?a=1&b=2',password:'a<&"b'},
+    {id:'two',name:{'zh-CN':'镜像 B'},url:'https://downloads.example/b',password:'another'}
+  ]};
+  const html=renderDomesticDownloads(config,'');
+  assert.ok(html.includes('镜像 &lt;A&gt;'));
+  assert.ok(html.includes('translate="no">a&lt;&amp;&quot;b</code>'));
+  assert.equal((html.match(/data-copy-download-password/g)||[]).length,2);
+  assert.ok(html.includes('https://downloads.example/?a=1&amp;b=2'));
 });

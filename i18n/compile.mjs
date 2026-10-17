@@ -14,6 +14,18 @@ for(const [source,{en,tw}] of Object.entries(catalog)) {
   records[key]=[source,tw,en];
 }
 const keys=new Map(Object.entries(records).map(([key,[source]])=>[source,key]));
+export function registerTranslations(entries){
+  for(const [source,{en,tw}] of Object.entries(entries)){
+    if(!source||!en||!tw)throw Error('Incomplete data-driven translation.');
+    const key='m'+createHash('sha256').update(source).digest('hex').slice(0,10);
+    if(records[key]&&records[key][0]!==source)throw Error('Translation key collision');
+    records[key]=[source,tw,en];
+    keys.set(source,key);
+    // Labels are escaped before entering the controlled HTML template.
+    keys.set(source.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;'),key);
+  }
+  return Object.fromEntries(Object.keys(entries).map(source=>[source,keys.get(source)]));
+}
 const keyFor=source=>{
   const key=keys.get(source);
   if(!key)throw Error(`Add a complete translation to i18n/catalog.json: ${source}`);
@@ -36,7 +48,7 @@ export function localizeTemplate(html) {
       const tag=token.match(/^<\/?([a-z][\w-]*)/i)?.[1]?.toLowerCase();
       if(!tag)return token;
       if(token.startsWith('</')) {stack.pop();return token;}
-      const skip=stack.at(-1)?.skip||/\bdata-locale=|\blanguage-label\b/.test(token)||['script','style','svg'].includes(tag);
+      const skip=stack.at(-1)?.skip||/\bdata-locale=|\bdata-l10n=|\blanguage-label\b|\btranslate="no"/.test(token)||['script','style','svg'].includes(tag);
       if(!voidTags.has(tag)&&!token.endsWith('/>'))stack.push({tag,skip});
       return token;
     }

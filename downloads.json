@@ -1,0 +1,25 @@
+{
+  "channels": [
+    {
+      "id": "lanzou",
+      "name": {
+        "zh-CN": "蓝奏云",
+        "zh-TW": "藍奏雲",
+        "en-US": "Lanzou Cloud"
+      },
+      "url": "https://wwbji.lanzoue.com/b01i5xi69c",
+      "password": "89m5"
+    },
+    {
+      "id": "baidu",
+      "name": {
+        "zh-CN": "百度网盘",
+        "zh-TW": "百度網盤",
+        "en-US": "Baidu Netdisk"
+      },
+      "url": "https://pan.baidu.com/s/13gGqNPhJTwpOLXzdx1wv_g",
+      "password": "RUAA",
+      "passwordQuery": "pwd"
+    }
+  ]
+}

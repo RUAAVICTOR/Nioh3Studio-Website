@@ -80,7 +80,8 @@
       if (item.open) disclosures.forEach(other => { if (other !== item) other.open = false; });
     }));
     document.addEventListener('click', event => {
-      disclosures.forEach(item => { if (item.open && !item.contains(event.target)) item.open = false; });
+      const path = event.composedPath();
+      disclosures.forEach(item => { if (item.open && !path.includes(item)) item.open = false; });
     });
     document.addEventListener('keydown', event => {
       if (event.key !== 'Escape') return;
@@ -92,9 +93,9 @@
       event.preventDefault();
       if (namespace.i18n.setLocale(button.dataset.locale)) button.closest('details').open = false;
     }));
-    document.querySelector('[data-copy-download-password]')?.addEventListener('click', async event => {
+    document.querySelectorAll('[data-copy-download-password]').forEach(control=>control.addEventListener('click', async event => {
       const button = event.currentTarget;
-      const password = document.querySelector('#lanzou-password');
+      const password = button.closest('.download-channel').querySelector('[data-download-password]');
       const status = document.querySelector('[data-download-status]');
       try {
         await navigator.clipboard.writeText(password.textContent);
@@ -106,7 +107,7 @@
         status.textContent = namespace.i18n.t('密码已选中，可以手动复制');
       }
       setTimeout(() => { button.textContent = namespace.i18n.t('复制'); }, 1800);
-    });
+    }));
     document.querySelector('[data-copy-group]')?.addEventListener('click', async event => {
       const button = event.currentTarget;
       const number = document.querySelector('#qq-number');

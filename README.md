@@ -31,9 +31,21 @@ npm run preview -- --root /absolute/output/directory --port 4174
 
 ## Editing
 
+### Update domestic download links
+
+Edit [downloads.json](downloads.json) directly in GitHub using the pencil button, then commit to `main`. This is the only file needed for routine mirror updates. The existing workflow rebuilds and deploys the page automatically.
+
+- `url`: the channel's new HTTPS share URL.
+- `password`: its access code, as a quoted string; use `""` if no code is required.
+- Baidu's `passwordQuery: "pwd"` automatically inserts the current `password` into the link, overriding any old `pwd` pasted with a URL. Keep that setting when updating the Baidu share.
+- `name` contains the three language labels; `id` identifies the channel. These normally stay unchanged. To add a channel, copy an entry and supply a unique ID, all three labels, its URL and optional password. No template or translation-catalog edit is needed for its label.
+
+The two Chinese pages share the same data. English continues to hide domestic downloads. Links and passwords are generated into HTML during the build, with no extra runtime request or backend. A malformed configuration fails the build before deployment, leaving the last successful website in place. The access codes here are public share codes, not account credentials.
+
 | File | Purpose |
 | --- | --- |
 | `generate.mjs` | Page structure, six hero features and five functional workspace views. |
+| `downloads.json`, `shared/downloads.mjs` | Maintained download channels and build-time validation/rendering. |
 | `a/style.css` | The selected A layout. Older alternative/comparison layouts are not included. |
 | `shared/demo-ui.mjs`, `shared/demo-ui.css` | Static tool UI components. These illustrate the application and do not perform game operations. |
 | `shared/engine-section.mjs`, `shared/engine.css` | The generation-engine narrative and three source panels. |
