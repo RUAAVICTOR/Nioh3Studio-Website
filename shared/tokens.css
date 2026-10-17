@@ -1,0 +1,29 @@
+/* Neutral tokens adapted from Arc Library, MIT, © 2026 Elia Kuratli.
+   Source: registry/foundation.css at b40c8906e8cc55cba920113be856b2e6d964885a.
+   The complete copyright and permission notice is retained in ../ARC_LICENSE.txt.
+   Font roles and content spacing are adapted to the Windows product and Chinese copy. */
+:root {
+  color-scheme: light;
+  --background: #fff;
+  --surface: #fff;
+  --surface-muted: oklch(97.8% 0 0);
+  --foreground: oklch(15% 0 0);
+  --text-secondary: oklch(46% 0 0);
+  --text-muted: oklch(59% 0 0);
+  --border: oklch(93.5% 0 0);
+  --border-subtle: oklch(96.5% 0 0);
+  --accent: oklch(33% 0 0);
+  /* Most frequent opaque red in the numeral of the official logo PNG; see BRAND_ASSETS.md. */
+  --nioh-logo-red: #e70000;
+  --radius-control: 18px;
+  --radius-panel: 26px;
+  --radius-surface: 34px;
+  --shadow-resting: 0 1px 2px oklch(0% 0 0 / .035);
+  --shadow-raised: 0 6px 18px oklch(0% 0 0 / .065), 0 1px 3px oklch(0% 0 0 / .035);
+  --ease-standard: cubic-bezier(.22,1,.36,1);
+  --duration-fast: 160ms;
+  --duration-standard: 240ms;
+  --duration-panel: 400ms;
+  --font-display: "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  --font-body: "Segoe UI", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}

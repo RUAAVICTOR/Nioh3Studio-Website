@@ -1,0 +1,7 @@
+/dist/
+/a/index.html
+/i18n/coverage.json
+/shared/translations.js
+/node_modules/
+*.log
+.DS_Store

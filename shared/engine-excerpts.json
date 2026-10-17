@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "tabWidth": 4,
+  "panels": {
+    "seed": {
+      "language": "python",
+      "source": "nioh3_seed_math.py",
+      "revision": "main",
+      "sourceSha256": "26a317a7c89e0cb684a0de9071a6d38151575133d4e2346e8d4d8f19b52f3fa3",
+      "fragments": [
+        {
+          "startLine": 16,
+          "endLine": 20,
+          "text": "UINT32_MASK = 0xFFFFFFFF\nMODULUS = 1 << 32\nLCG_MULTIPLIER = 0x00010DCD\nLCG_INCREMENT = 1\nLCG_MULTIPLIER_INVERSE = pow(LCG_MULTIPLIER, -1, MODULUS)"
+        },
+        {
+          "startLine": 32,
+          "endLine": 33,
+          "text": "def lcg_step(state: int) -> int:\n    return (LCG_MULTIPLIER * (state & UINT32_MASK) + LCG_INCREMENT) & UINT32_MASK"
+        },
+        {
+          "startLine": 36,
+          "endLine": 40,
+          "text": "def lcg_rewind(state_after_draw: int) -> int:\n    return (\n        LCG_MULTIPLIER_INVERSE\n        * (((state_after_draw & UINT32_MASK) - LCG_INCREMENT) & UINT32_MASK)\n    ) & UINT32_MASK"
+        }
+      ]
+    },
+    "equipment-seeds": {
+      "language": "rust",
+      "source": "crates/nioh3-protected/src/equipment_seeds.rs",
+      "revision": "ed8e4671333d0ea4de70e03937008a52b2a7ca67",
+      "sourceSha256": "5d519cf96d66a40145a874cacf4d7aa01a4548dd586417fc537a3bebb27a7296",
+      "fragments": [
+        {
+          "startLine": 202,
+          "endLine": 215,
+          "text": "                    for seed in start..end {\n                        let entries = prepared.generate(seed as u16);\n                        if entries.iter().all(|entry| entry.effect_id == EMPTY_ENTRY) {\n                            found.empty += 1;\n                            continue;\n                        }\n                        if !wanted\n                            .iter()\n                            .all(|any| entries.iter().any(|entry| any.contains(&entry.effect_id)))\n                        {\n                            continue;\n                        }\n                        found.matches += 1;\n                        found.best.push((quality(&entries), seed as u16));"
+        }
+      ]
+    },
+    "equipment-effects": {
+      "language": "rust",
+      "source": "crates/nioh3-domain/src/equipment_generation.rs",
+      "revision": "b13a34dba6f486b92127dc75ae911bd96cd197c0",
+      "sourceSha256": "2b301201b894db5bd63d28d83c1c3967eef462a1dac2458c6184f832e8bc40a1",
+      "fragments": [
+        {
+          "startLine": 692,
+          "endLine": 715,
+          "text": "                let chosen = lottery(\n                    &mut rng,\n                    picks.iter().map(|position| self.pool[*position].weight),\n                )\n                .map(|position| self.pool[picks[position]]);\n                match chosen {\n                    None if !retry => {\n                        entries[index].flags &= !4;\n                        retry = true;\n                        continue;\n                    }\n                    None => {\n                        entries[index] = GeneratedEntry {\n                            effect_id: EMPTY_ENTRY,\n                            ..GeneratedEntry::EMPTY\n                        };\n                        wiped = true;\n                    }\n                    Some(candidate) => {\n                        let roll = self.roll(&mut rng);\n                        let entry = &mut entries[index];\n                        entry.roll = roll;\n                        entry.effect_id = u32::from(candidate.effect_id);\n                        accepted.push(candidate.group);"
+        }
+      ]
+    }
+  }
+}

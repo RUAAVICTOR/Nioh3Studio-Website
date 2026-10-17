@@ -1,0 +1,5 @@
+/* A keeps the summary and actions in one left-hand reading column. */
+.hero-copy { width: 570px; }
+@media (max-width:1150px) { .hero-copy { width: 525px; } }
+@media (max-width:900px) { .hero-copy { width: 470px; } }
+@media (max-width:700px) { .hero-copy { width: 100%; } }

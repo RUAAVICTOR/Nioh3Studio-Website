@@ -1,0 +1,1626 @@
+{
+  "Nioh 3 Studio · 独脚踏鞴工作室": {
+    "en": "Nioh 3 Studio · Ippon-Datara Studio",
+    "tw": "Nioh 3 Studio · 獨腳踏鞴工作室"
+  },
+  "跳到主要内容": {
+    "en": "Skip to content",
+    "tw": "跳到主要內容"
+  },
+  "独脚踏鞴工作室": {
+    "en": "Ippon-Datara Studio",
+    "tw": "獨腳踏鞴工作室"
+  },
+  "文档": {
+    "en": "Docs",
+    "tw": "文檔"
+  },
+  "QQ 群": {
+    "en": "QQ group",
+    "tw": "QQ 群"
+  },
+  "QQ 交流群": {
+    "en": "QQ community",
+    "tw": "QQ 交流群"
+  },
+  "复制": {
+    "en": "Copy",
+    "tw": "複製"
+  },
+  "加入QQ群": {
+    "en": "Join QQ group",
+    "tw": "加入QQ群"
+  },
+  "简体中文": {
+    "en": "简体中文",
+    "tw": "簡體中文"
+  },
+  "已选条件": {
+    "en": "Selected conditions",
+    "tw": "已選條件"
+  },
+  "每一块都要满足；虚线框内满足其一即可": {
+    "en": "All groups must match; any condition within a group may match.",
+    "tw": "每一塊都要滿足；虛線框內滿足其一即可"
+  },
+  "使用说明": {
+    "en": "How to use",
+    "tw": "使用說明"
+  },
+  "清空全部": {
+    "en": "Clear all",
+    "tw": "清空全部"
+  },
+  "主词条不限": {
+    "en": "Any primary effect",
+    "tw": "主詞條不限"
+  },
+  "主词条可选数量": {
+    "en": "Primary options",
+    "tw": "主詞條可選數量"
+  },
+  "前": {
+    "en": "First",
+    "tw": "前"
+  },
+  "项均可为主词条": {
+    "en": "items can be the primary effect",
+    "tw": "項均可為主詞條"
+  },
+  "主词条 · 前 1 项任一当选": {
+    "en": "Primary effect · Match any of the first 1",
+    "tw": "主詞條 · 前 1 項任一當選"
+  },
+  "主词条备选": {
+    "en": "Primary option",
+    "tw": "主詞條備選"
+  },
+  "心之深奥": {
+    "en": "Ultimate Heart",
+    "tw": "心之深奧"
+  },
+  "数值不限　⌄": {
+    "en": "Any value　⌄",
+    "tw": "數值不限　⌄"
+  },
+  "副词条": {
+    "en": "Secondary effect",
+    "tw": "副詞條"
+  },
+  "精髓并存（共通）": {
+    "en": "Dual Mastery (Common)",
+    "tw": "精髓并存（共通）"
+  },
+  "必含　⌄": {
+    "en": "Required　⌄",
+    "tw": "必含　⌄"
+  },
+  "伤害反映（忍术威力）": {
+    "en": "Damage Bonus (Ninjutsu Power)",
+    "tw": "傷害反映（忍術威力）"
+  },
+  "恩宠 · 任选一个": {
+    "en": "Grace · Any one",
+    "tw": "恩寵 · 任選一個"
+  },
+  "素盏鸣尊的恩宠 ×": {
+    "en": "Grace of Susano ×",
+    "tw": "素盞鳴尊的恩寵 ×"
+  },
+  "敌人 · 武田信玄（妖怪形态）": {
+    "en": "Enemy · Takeda Shingen (Yokai)",
+    "tw": "敵人 · 武田信玄（妖怪形態）"
+  },
+  "规则 · 一难横行": {
+    "en": "Rule · Cursed Cavalcade",
+    "tw": "規則 · 一難橫行"
+  },
+  "任意数值　⌄": {
+    "en": "Any value　⌄",
+    "tw": "任意數值　⌄"
+  },
+  "规则 · 优先掉落率上升": {
+    "en": "Rule · Lucky Drop Rate Up",
+    "tw": "規則 · 優先掉落率上升"
+  },
+  "地形任一 · 地狱 ×": {
+    "en": "Any terrain · The Crucible ×",
+    "tw": "地形任一 · 地獄 ×"
+  },
+  "周目": {
+    "en": "Playthrough",
+    "tw": "周目"
+  },
+  "三周目　⌄": {
+    "en": "NG+2　⌄",
+    "tw": "三周目　⌄"
+  },
+  "稀有度": {
+    "en": "Rarity",
+    "tw": "稀有度"
+  },
+  "R4 · 绿色　⌄": {
+    "en": "R4 · Green　⌄",
+    "tw": "R4 · 綠色　⌄"
+  },
+  "绘卷等级": {
+    "en": "Scroll level",
+    "tw": "繪卷等級"
+  },
+  "推荐等级（敌人等级）": {
+    "en": "Recommended level",
+    "tw": "推薦等級（敵人等級）"
+  },
+  "转手次数": {
+    "en": "Transfer count",
+    "tw": "轉手次數"
+  },
+  "候选数量": {
+    "en": "Results per batch",
+    "tw": "候選數量"
+  },
+  "已知绘卷 ID": {
+    "en": "Known scroll ID",
+    "tw": "已知繪卷 ID"
+  },
+  "输入种子，单击查看": {
+    "en": "Enter a seed to preview",
+    "tw": "輸入種子，單擊查看"
+  },
+  "⌕ 开始搜索": {
+    "en": "⌕ Search",
+    "tw": "⌕ 開始搜尋"
+  },
+  "查看": {
+    "en": "View",
+    "tw": "查看"
+  },
+  "下一批 →": {
+    "en": "Next batch →",
+    "tw": "下一批 →"
+  },
+  "取消": {
+    "en": "Cancel",
+    "tw": "取消"
+  },
+  "搜索结果": {
+    "en": "Search results",
+    "tw": "搜尋結果"
+  },
+  "1 张": {
+    "en": "1 scroll",
+    "tw": "1 張"
+  },
+  "历史": {
+    "en": "History",
+    "tw": "歷史"
+  },
+  "主词条评分 ↓　⌄": {
+    "en": "Primary roll ↓　⌄",
+    "tw": "主詞條評分 ↓　⌄"
+  },
+  "真实搜索结果 · 3 周目 · R4 绿色": {
+    "en": "Search result · NG+2 · R4 Green",
+    "tw": "真實搜尋結果 · 3 周目 · R4 綠色"
+  },
+  "第": {
+    "en": "Page",
+    "tw": "第"
+  },
+  "/ 1 张": {
+    "en": "/ 1",
+    "tw": "/ 1 張"
+  },
+  "Lv.180　稀有度 4": {
+    "en": "Lv.180　Rarity 4",
+    "tw": "Lv.180　稀有度 4"
+  },
+  "百境百怪绘卷 · 顿悟": {
+    "en": "Scroll of a Hundred Demons · Enlightenment",
+    "tw": "百境百怪繪卷 · 頓悟"
+  },
+  "可挑战次数上限": {
+    "en": "Maximum attempts",
+    "tw": "可挑戰次數上限"
+  },
+  "推荐等级": {
+    "en": "Recommended level",
+    "tw": "推薦等級"
+  },
+  "特殊效果": {
+    "en": "Special effects",
+    "tw": "特殊效果"
+  },
+  "评分 90/100": {
+    "en": "Score 90/100",
+    "tw": "評分 90/100"
+  },
+  "防御精力消耗降低": {
+    "en": "Guard Ki Consumption",
+    "tw": "防御精力消耗降低"
+  },
+  "评分 93/100": {
+    "en": "Score 93/100",
+    "tw": "評分 93/100"
+  },
+  "评分 89/100": {
+    "en": "Score 89/100",
+    "tw": "評分 89/100"
+  },
+  "评分 91/100": {
+    "en": "Score 91/100",
+    "tw": "評分 91/100"
+  },
+  "素盏鸣尊的恩宠": {
+    "en": "Grace of Susano",
+    "tw": "素盞鳴尊的恩寵"
+  },
+  "恩宠": {
+    "en": "Grace",
+    "tw": "恩寵"
+  },
+  "空槽": {
+    "en": "Empty slot",
+    "tw": "空槽"
+  },
+  "出现敌人": {
+    "en": "Enemies",
+    "tw": "出現敵人"
+  },
+  "1 · 子泣爷爷": {
+    "en": "1 · Konaki-Jiji",
+    "tw": "1 · 子泣爺爺"
+  },
+  "3 · 幽鬼": {
+    "en": "3 · Grudge Spirit",
+    "tw": "3 · 幽鬼"
+  },
+  "2 · 撒泼婆婆": {
+    "en": "2 · Sunakake-baba",
+    "tw": "2 · 撒潑婆婆"
+  },
+  "3 · 人鱼": {
+    "en": "3 · Mermaid",
+    "tw": "3 · 人魚"
+  },
+  "4 · 武田信玄": {
+    "en": "4 · Takeda Shingen",
+    "tw": "4 · 武田信玄"
+  },
+  "特殊规则": {
+    "en": "Special rules",
+    "tw": "特殊規則"
+  },
+  "自动发动（夺灵符）": {
+    "en": "Auto Trigger (Extraction Talisman)",
+    "tw": "自動發動（奪靈符）"
+  },
+  "60 秒": {
+    "en": "60 sec",
+    "tw": "60 秒"
+  },
+  "一难横行（忍盾矛）": {
+    "en": "Cursed Cavalcade (Ninja Hoko & Shields)",
+    "tw": "一難橫行（忍盾矛）"
+  },
+  "优先掉落率上升（天照大神的恩宠）": {
+    "en": "Lucky Drop Rate Up (Grace of Amaterasu)",
+    "tw": "優先掉落率上升（天照大神的恩寵）"
+  },
+  "地形影响": {
+    "en": "Terrain effects",
+    "tw": "地形影響"
+  },
+  "地狱": {
+    "en": "The Crucible",
+    "tw": "地獄"
+  },
+  "绘卷 ID": {
+    "en": "Scroll ID",
+    "tw": "繪卷 ID"
+  },
+  "移除预览": {
+    "en": "Remove",
+    "tw": "移除預覽"
+  },
+  "清空预览": {
+    "en": "Clear all",
+    "tw": "清空預覽"
+  },
+  "多选移除": {
+    "en": "Select…",
+    "tw": "多選移除"
+  },
+  "加入购物车": {
+    "en": "Add to cart",
+    "tw": "加入購物車"
+  },
+  "查看购物车（0）": {
+    "en": "View cart (0)",
+    "tw": "查看購物車（0）"
+  },
+  "添加方式　　◉ 游戏内实时添加　○ 回标题界面后添加到存档": {
+    "en": "Add method　◉ In game　○ At title screen",
+    "tw": "添加方式　　◉ 游戲內實時添加　○ 回標題界面后添加到存檔"
+  },
+  "添加当前绘卷": {
+    "en": "Add current scroll",
+    "tw": "添加當前繪卷"
+  },
+  "《仁王3》PC 玩家工具箱": {
+    "en": "A PC toolkit for Nioh 3",
+    "tw": "《仁王3》PC 玩家工具箱"
+  },
+  "绘卷搜索与添加": {
+    "en": "Find and add scrolls",
+    "tw": "繪卷搜尋與添加"
+  },
+  "按词条、恩宠和敌人筛选，预览并添加选中的绘卷。": {
+    "en": "Filter by effects, graces and enemies. Preview the results and add the scrolls you want.",
+    "tw": "按詞條、恩寵和敵人篩選，預覽并添加選中的繪卷。"
+  },
+  "绘卷编辑": {
+    "en": "Scroll editor",
+    "tw": "繪卷編輯"
+  },
+  "修改已有绘卷的基础属性与特殊效果。": {
+    "en": "Edit the base stats and special effects of scrolls you own.",
+    "tw": "修改已有繪卷的基礎屬性與特殊效果。"
+  },
+  "装备与道具": {
+    "en": "Equipment & items",
+    "tw": "裝備與道具"
+  },
+  "查看存档中的物品，编辑装备等级、属性与词条。": {
+    "en": "Browse your inventory and edit equipment levels, stats and effects.",
+    "tw": "查看存檔中的物品，編輯裝備等級、屬性與詞條。"
+  },
+  "存档备份与恢复": {
+    "en": "Save backups",
+    "tw": "存檔備份與恢復"
+  },
+  "备份本地存档，也可从已有备份恢复。": {
+    "en": "Back up local saves and restore a previous backup.",
+    "tw": "備份本機存檔，也可從現有備份還原。"
+  },
+  "前往 GitHub 下载": {
+    "en": "Download on GitHub",
+    "tw": "前往 GitHub 下載"
+  },
+  "国内下载": {
+    "en": "China mirrors",
+    "tw": "國內下載"
+  },
+  "蓝奏云": {
+    "en": "Lanzou Cloud",
+    "tw": "藍奏雲"
+  },
+  "密码": {
+    "en": "Password",
+    "tw": "密碼"
+  },
+  "百度网盘": {
+    "en": "Baidu Netdisk",
+    "tw": "百度網盤"
+  },
+  "提取码已填入链接": {
+    "en": "Access code included in the link",
+    "tw": "提取碼已填入鏈接"
+  },
+  "查看功能": {
+    "en": "Explore features",
+    "tw": "查看功能"
+  },
+  "功能介绍": {
+    "en": "Features",
+    "tw": "功能介紹"
+  },
+  "界面演示": {
+    "en": "Interface demo",
+    "tw": "界面演示"
+  },
+  "绘卷搜索": {
+    "en": "Scroll search",
+    "tw": "繪卷搜尋"
+  },
+  "收藏夹": {
+    "en": "Favorites",
+    "tw": "收藏夾"
+  },
+  "存档管理": {
+    "en": "Save manager",
+    "tw": "存檔管理"
+  },
+  "收藏夹 ⑭": {
+    "en": "Favorites ⑭",
+    "tw": "收藏夾 ⑭"
+  },
+  "敬请期待": {
+    "en": "Coming soon",
+    "tw": "敬請期待"
+  },
+  "修改已有物品": {
+    "en": "Edit existing items",
+    "tw": "修改已有物品"
+  },
+  "装备的词条与数值、道具数量、精华与金钱": {
+    "en": "Equipment effects and values, item quantities, Amrita and money",
+    "tw": "裝備的詞條與數值、道具數量、精華與金錢"
+  },
+  "添加新装备": {
+    "en": "Add new equipment",
+    "tw": "添加新裝備"
+  },
+  "像游戏掉落一样生成一件新装备，或自由魔改": {
+    "en": "Generate equipment with natural drops or unrestricted edits",
+    "tw": "像游戲掉落一樣生成一件新裝備，或自由魔改"
+  },
+  "游戏内实时修改": {
+    "en": "Edit in game",
+    "tw": "游戲內實時修改"
+  },
+  "修改存档文件": {
+    "en": "Edit save file",
+    "tw": "修改存檔檔案"
+  },
+  "重新读取": {
+    "en": "Reload",
+    "tw": "重新讀取"
+  },
+  "精华": {
+    "en": "Amrita",
+    "tw": "精華"
+  },
+  "修改": {
+    "en": "Edit",
+    "tw": "修改"
+  },
+  "持有金钱": {
+    "en": "Money",
+    "tw": "持有金錢"
+  },
+  "修改存档文件，写入时让游戏停在标题界面即可，无需关闭。写入前会自动备份原存档。": {
+    "en": "Keep the game at the title screen when writing. Your original save is backed up automatically.",
+    "tw": "修改存檔檔案，寫入時讓游戲停在標題界面即可，無需關閉。寫入前會自動備份原存檔。"
+  },
+  "目标存档": {
+    "en": "Target save",
+    "tw": "目標存檔"
+  },
+  "3 周目 · 等级 1": {
+    "en": "NG+2 · Level 1",
+    "tw": "3 周目 · 等級 1"
+  },
+  "游玩 168:38 · 保存于 10/15 10:50": {
+    "en": "Played 168:38 · Saved 10/15 10:50",
+    "tw": "游玩 168:38 · 保存于 10/15 10:50"
+  },
+  "重新检测": {
+    "en": "Scan again",
+    "tw": "重新檢測"
+  },
+  "手动定位": {
+    "en": "Browse…",
+    "tw": "手動定位"
+  },
+  "装备": {
+    "en": "Equipment",
+    "tw": "裝備"
+  },
+  "道具": {
+    "en": "Items",
+    "tw": "道具"
+  },
+  "全部": {
+    "en": "All",
+    "tw": "全部"
+  },
+  "武器 16": {
+    "en": "Weapons 16",
+    "tw": "武器 16"
+  },
+  "防具 45": {
+    "en": "Armor 45",
+    "tw": "防具 45"
+  },
+  "饰品 13": {
+    "en": "Accessories 13",
+    "tw": "飾品 13"
+  },
+  "魂核 176": {
+    "en": "Soul Cores 176",
+    "tw": "魂核 176"
+  },
+  "套装 7": {
+    "en": "Sets 7",
+    "tw": "套裝 7"
+  },
+  "刀 2": {
+    "en": "Sword 2",
+    "tw": "刀 2"
+  },
+  "双刀 1": {
+    "en": "Dual Swords 1",
+    "tw": "雙刀 1"
+  },
+  "大太刀 2": {
+    "en": "Odachi 2",
+    "tw": "大太刀 2"
+  },
+  "斧 1": {
+    "en": "Axe 1",
+    "tw": "斧 1"
+  },
+  "薙刀镰 1": {
+    "en": "Switchglaive 1",
+    "tw": "薙刀鐮 1"
+  },
+  "盾矛 1": {
+    "en": "Spear 1",
+    "tw": "盾矛 1"
+  },
+  "手甲钩 3": {
+    "en": "Talons 3",
+    "tw": "手甲鉤 3"
+  },
+  "旋棍 1": {
+    "en": "Tonfa 1",
+    "tw": "旋棍 1"
+  },
+  "机关棍 1": {
+    "en": "Splitstaff 1",
+    "tw": "機關棍 1"
+  },
+  "忍盾矛 2": {
+    "en": "Ninja Spear 2",
+    "tw": "忍盾矛 2"
+  },
+  "搜索物品名称或词条": {
+    "en": "Search item names or effects",
+    "tw": "搜尋物品名稱或詞條"
+  },
+  "全部判定　⌄": {
+    "en": "All statuses　⌄",
+    "tw": "全部判定　⌄"
+  },
+  "只看收藏": {
+    "en": "Favorites only",
+    "tw": "只看收藏"
+  },
+  "物品": {
+    "en": "Item",
+    "tw": "物品"
+  },
+  "类别": {
+    "en": "Type",
+    "tw": "類別"
+  },
+  "等级 ↕": {
+    "en": "Level ↕",
+    "tw": "等級 ↕"
+  },
+  "判定": {
+    "en": "Status",
+    "tw": "判定"
+  },
+  "皮手甲钩": {
+    "en": "Leather Talons",
+    "tw": "皮手甲鉤"
+  },
+  "近距离风压、空中攻击精力伤害…": {
+    "en": "Melee Wind Pressure, Aerial Attack Ki Damage…",
+    "tw": "近距離風壓、空中攻擊精力傷害…"
+  },
+  "手甲钩": {
+    "en": "Talons",
+    "tw": "手甲鉤"
+  },
+  "自然　☆": {
+    "en": "Natural　☆",
+    "tw": "自然　☆"
+  },
+  "轩辕手甲钩": {
+    "en": "Xuanyuan Talons",
+    "tw": "軒轅手甲鉤"
+  },
+  "武技精力伤害、喝生符的精力恢复速度…": {
+    "en": "Martial Art Ki Damage, Lifeseal Ki Recovery…",
+    "tw": "武技精力傷害、喝生符的精力恢復速度…"
+  },
+  "破魔金刚锤": {
+    "en": "Demon-Breaking Vajra Hammer",
+    "tw": "破魔金剛錘"
+  },
+  "近距离攻击吸取体力、近距离攻击精力伤害…": {
+    "en": "Life Drain (Melee Attack), Melee Ki Damage…",
+    "tw": "近距離攻擊吸取體力、近距離攻擊精力傷害…"
+  },
+  "斧": {
+    "en": "Axe",
+    "tw": "斧"
+  },
+  "亲方盾矛": {
+    "en": "Master's Spear",
+    "tw": "親方盾矛"
+  },
+  "对精力耗尽敌人的近距离伤害…": {
+    "en": "Melee Damage vs. Zero-Ki Enemy…",
+    "tw": "對精力耗盡敵人的近距離傷害…"
+  },
+  "忍盾矛": {
+    "en": "Ninja Spear",
+    "tw": "忍盾矛"
+  },
+  "打刀·阵笠": {
+    "en": "Uchigatana · Jingasa",
+    "tw": "打刀·陣笠"
+  },
+  "近距离攻击精力伤害、防御崩解难度降低…": {
+    "en": "Melee Ki Damage, Guard Break Resistance…",
+    "tw": "近距離攻擊精力傷害、防御崩解難度降低…"
+  },
+  "户隐流手甲钩": {
+    "en": "Togakure Talons",
+    "tw": "戶隱流手甲鉤"
+  },
+  "获得精华增加灵力、赋予水属性…": {
+    "en": "Anima Bonus (Amrita Absorption), Imbue Water…",
+    "tw": "獲得精華增加靈力、賦予水屬性…"
+  },
+  "炼金术师刃盾": {
+    "en": "Alchemist's Blade-Shield",
+    "tw": "煉金術師刃盾"
+  },
+  "敌人的毒状态累积、残心初始量…": {
+    "en": "Poison Accumulation, Ki Pulse Bonus…",
+    "tw": "敵人的毒狀態累積、殘心初始量…"
+  },
+  "盾矛": {
+    "en": "Spear",
+    "tw": "盾矛"
+  },
+  "猎人薙刀镰": {
+    "en": "Hunter's Switchglaive",
+    "tw": "獵人薙刀鐮"
+  },
+  "近距离精力伤害、下段架式攻击伤害…": {
+    "en": "Melee Ki Damage, Low Attack Damage…",
+    "tw": "近距離精力傷害、下段架式攻擊傷害…"
+  },
+  "薙刀镰": {
+    "en": "Switchglaive",
+    "tw": "薙刀鐮"
+  },
+  "关兼则双刀": {
+    "en": "Seki Kanenori Dual Swords",
+    "tw": "關兼則雙刀"
+  },
+  "双刀": {
+    "en": "Dual Swords",
+    "tw": "雙刀"
+  },
+  "叶忍机关枪": {
+    "en": "Leaf-Ninja Splitstaff",
+    "tw": "葉忍機關槍"
+  },
+  "敌人的毒状态累积、强攻击精力伤害…": {
+    "en": "Poison Accumulation, Strong Attack Ki Damage…",
+    "tw": "敵人的毒狀態累積、強攻擊精力傷害…"
+  },
+  "机关棍": {
+    "en": "Splitstaff",
+    "tw": "機關棍"
+  },
+  "复制配装码": {
+    "en": "Copy loadout code",
+    "tw": "複製配裝碼"
+  },
+  "尚未修改　自然": {
+    "en": "Unchanged　Natural",
+    "tw": "尚未修改　自然"
+  },
+  "合法修改": {
+    "en": "Legal edits",
+    "tw": "合法修改"
+  },
+  "魔改": {
+    "en": "Unrestricted",
+    "tw": "魔改"
+  },
+  "合法修改：每个位置只列出这件装备能自然出现的词条，数值在合法范围内。": {
+    "en": "Only naturally available effects and valid values are shown for each slot.",
+    "tw": "合法修改：每個位置只列出這件裝備能自然出現的詞條，數值在合法范圍內。"
+  },
+  "等级": {
+    "en": "Level",
+    "tw": "等級"
+  },
+  "锻造前等级": {
+    "en": "Base level",
+    "tw": "鍛造前等級"
+  },
+  "+值": {
+    "en": "+ Value",
+    "tw": "+值"
+  },
+  "爱用度": {
+    "en": "Familiarity",
+    "tw": "愛用度"
+  },
+  "保护（游戏里不能卖掉或丢弃）": {
+    "en": "Lock (cannot sell or discard)",
+    "tw": "保護（游戲里不能賣掉或丟棄）"
+  },
+  "喜好项目": {
+    "en": "Favorite",
+    "tw": "喜好項目"
+  },
+  "地狱武器": {
+    "en": "Crucible weapon",
+    "tw": "地獄武器"
+  },
+  "大旋风　⌄": {
+    "en": "Great Whirlwind　⌄",
+    "tw": "大旋風　⌄"
+  },
+  "位置": {
+    "en": "Slot",
+    "tw": "位置"
+  },
+  "词条": {
+    "en": "Effect",
+    "tw": "詞條"
+  },
+  "数值": {
+    "en": "Value",
+    "tw": "數值"
+  },
+  "合法范围": {
+    "en": "Valid range",
+    "tw": "合法范圍"
+  },
+  "近距离攻击吸取体力（6）": {
+    "en": "Life Drain (Melee Attack) (6)",
+    "tw": "近距離攻擊吸取體力（6）"
+  },
+  "6 · 前 100%": {
+    "en": "6 · Top 100%",
+    "tw": "6 · 前 100%"
+  },
+  "随机": {
+    "en": "Random",
+    "tw": "隨機"
+  },
+  "近距离攻击精力伤害（地狱）（15）": {
+    "en": "Melee Attack Ki Damage (Crucible) (15)",
+    "tw": "近距離攻擊精力傷害（地獄）（15）"
+  },
+  "15 · 前 100%": {
+    "en": "15 · Top 100%",
+    "tw": "15 · 前 100%"
+  },
+  "精力恢复速度上升（无伤）（13）": {
+    "en": "Ki Recovery Speed (Unscathed) (13)",
+    "tw": "精力恢復速度上升（無傷）（13）"
+  },
+  "13 · 前 100%": {
+    "en": "13 · Top 100%",
+    "tw": "13 · 前 100%"
+  },
+  "使敌人陷入火状态时增加灵力（4）": {
+    "en": "Anima Bonus (Scorched Enemy) (4)",
+    "tw": "使敵人陷入火狀態時增加靈力（4）"
+  },
+  "4 · 前 100%": {
+    "en": "4 · Top 100%",
+    "tw": "4 · 前 100%"
+  },
+  "毘沙门天的恩宠": {
+    "en": "Grace of Vaisravana",
+    "tw": "毘沙門天的恩寵"
+  },
+  "（空）": {
+    "en": "(Empty)",
+    "tw": "（空）"
+  },
+  "查看与编辑装备": {
+    "en": "Browse and edit equipment",
+    "tw": "查看與編輯裝備"
+  },
+  "分类浏览存档中的装备与道具，查看物品详情，修改装备等级、属性和词条。": {
+    "en": "Browse equipment and items in your save. Inspect details and edit levels, stats and effects.",
+    "tw": "分類瀏覽存檔中的裝備與道具，查看物品詳情，修改裝備等級、屬性和詞條。"
+  },
+  "搜索与添加绘卷": {
+    "en": "Find your next scroll",
+    "tw": "搜尋與添加繪卷"
+  },
+  "按词条、恩宠和敌人筛选绘卷，预览结果后选择游戏内实时添加，或添加到存档。": {
+    "en": "Filter scrolls by effects, graces and enemies. Preview a result, then add it in game or to your save.",
+    "tw": "按詞條、恩寵和敵人篩選繪卷，預覽結果后選擇游戲內實時添加，或添加到存檔。"
+  },
+  "我的绘卷": {
+    "en": "My scrolls",
+    "tw": "我的繪卷"
+  },
+  "查找绘卷 ID 或词条": {
+    "en": "Search scroll ID or effect",
+    "tw": "查找繪卷 ID 或詞條"
+  },
+  "只看收藏（1）": {
+    "en": "Favorites only (1)",
+    "tw": "只看收藏（1）"
+  },
+  "栏位 1 · R4": {
+    "en": "Slot 1 · R4",
+    "tw": "欄位 1 · R4"
+  },
+  "一难的解除时间延长": {
+    "en": "Extended Curse Nullification",
+    "tw": "一難的解除時間延長"
+  },
+  "绘卷 ID 147754467": {
+    "en": "Scroll ID 147754467",
+    "tw": "繪卷 ID 147754467"
+  },
+  "栏位 2 · R3": {
+    "en": "Slot 2 · R3",
+    "tw": "欄位 2 · R3"
+  },
+  "对妖战术": {
+    "en": "Counter-Yokai Tactics",
+    "tw": "對妖戰術"
+  },
+  "绘卷 ID 68036267": {
+    "en": "Scroll ID 68036267",
+    "tw": "繪卷 ID 68036267"
+  },
+  "栏位 3 · R3": {
+    "en": "Slot 3 · R3",
+    "tw": "欄位 3 · R3"
+  },
+  "近距离攻击的精力消耗降低": {
+    "en": "Melee Attack Ki Consumption",
+    "tw": "近距離攻擊的精力消耗降低"
+  },
+  "绘卷 ID 158778221": {
+    "en": "Scroll ID 158778221",
+    "tw": "繪卷 ID 158778221"
+  },
+  "栏位 4 · R3": {
+    "en": "Slot 4 · R3",
+    "tw": "欄位 4 · R3"
+  },
+  "敌人精力耗尽时赋予受到伤害增加": {
+    "en": "Increased Damage Taken (Winded Enemy)",
+    "tw": "敵人精力耗盡時賦予受到傷害增加"
+  },
+  "绘卷 ID 1": {
+    "en": "Scroll ID 1",
+    "tw": "繪卷 ID 1"
+  },
+  "栏位 5 · R4": {
+    "en": "Slot 5 · R4",
+    "tw": "欄位 5 · R4"
+  },
+  "绘卷 ID 80939064": {
+    "en": "Scroll ID 80939064",
+    "tw": "繪卷 ID 80939064"
+  },
+  "栏位 6 · R3": {
+    "en": "Slot 6 · R3",
+    "tw": "欄位 6 · R3"
+  },
+  "武技伤害": {
+    "en": "Martial Art Damage",
+    "tw": "武技傷害"
+  },
+  "绘卷 ID 70827748": {
+    "en": "Scroll ID 70827748",
+    "tw": "繪卷 ID 70827748"
+  },
+  "栏位 7 · R3": {
+    "en": "Slot 7 · R3",
+    "tw": "欄位 7 · R3"
+  },
+  "闪避动作精力消耗降低": {
+    "en": "Dodge Ki Consumption",
+    "tw": "閃避動作精力消耗降低"
+  },
+  "绘卷 ID —": {
+    "en": "Scroll ID —",
+    "tw": "繪卷 ID —"
+  },
+  "定位游戏里选中的绘卷": {
+    "en": "Locate selected in-game scroll",
+    "tw": "定位游戲里選中的繪卷"
+  },
+  "删除选中绘卷": {
+    "en": "Delete selected scrolls",
+    "tw": "刪除選中繪卷"
+  },
+  "编辑绘卷": {
+    "en": "Edit scroll",
+    "tw": "編輯繪卷"
+  },
+  "尚未修改": {
+    "en": "Unchanged",
+    "tw": "尚未修改"
+  },
+  "撤销": {
+    "en": "Undo",
+    "tw": "撤銷"
+  },
+  "重做": {
+    "en": "Redo",
+    "tw": "重做"
+  },
+  "基础信息和主副词条会保存下来；副本内容只临时改游戏，不会存进存档。": {
+    "en": "Base stats and effects are saved. Mission changes are temporary and are not written to your save.",
+    "tw": "基礎資訊和主副詞條會保存下來；副本內容只臨時改游戲，不會存進存檔。"
+  },
+  "▾ 基础信息": {
+    "en": "▾ Base information",
+    "tw": "▾ 基礎資訊"
+  },
+  "绘卷 ID（种子）": {
+    "en": "Scroll ID (seed)",
+    "tw": "繪卷 ID（種子）"
+  },
+  "▸ 主副词条": {
+    "en": "▸ Primary / secondary effects",
+    "tw": "▸ 主副詞條"
+  },
+  "▸ 当前可挑战次数": {
+    "en": "▸ Remaining attempts",
+    "tw": "▸ 當前可挑戰次數"
+  },
+  "▸ 洗词条与添画预测": {
+    "en": "▸ Reroll & repaint preview",
+    "tw": "▸ 洗詞條與添畫預測"
+  },
+  "▸ 副本内容 · 临时，不进存档": {
+    "en": "▸ Mission content · Temporary",
+    "tw": "▸ 副本內容 · 臨時，不進存檔"
+  },
+  "放弃修改": {
+    "en": "Discard edits",
+    "tw": "放棄修改"
+  },
+  "核对修改": {
+    "en": "Review edits",
+    "tw": "核對修改"
+  },
+  "修改预览": {
+    "en": "Edit preview",
+    "tw": "修改預覽"
+  },
+  "百行百怪绘卷": {
+    "en": "Scroll of a Hundred Demons",
+    "tw": "百行百怪繪卷"
+  },
+  "等级 170 · 敌人等级 254": {
+    "en": "Level 170 · Enemy level 254",
+    "tw": "等級 170 · 敵人等級 254"
+  },
+  "1　对妖战术": {
+    "en": "1　Counter-Yokai Tactics",
+    "tw": "1　對妖戰術"
+  },
+  "2　刚之深奥": {
+    "en": "2　Ultimate Stamina",
+    "tw": "2　剛之深奧"
+  },
+  "3　强攻击精力消耗降低": {
+    "en": "3　Strong Attack Ki Consumption",
+    "tw": "3　強攻擊精力消耗降低"
+  },
+  "4　武技精力伤害": {
+    "en": "4　Martial Art Ki Damage",
+    "tw": "4　武技精力傷害"
+  },
+  "5　空槽": {
+    "en": "5　Empty slot",
+    "tw": "5　空槽"
+  },
+  "6　空槽": {
+    "en": "6　Empty slot",
+    "tw": "6　空槽"
+  },
+  "7　空槽": {
+    "en": "7　Empty slot",
+    "tw": "7　空槽"
+  },
+  "◇ 梶原景时　◇ 河原卜郎兵卫　◇ 血刀修罗": {
+    "en": "◇ Kajiwara Kagetoki　◇ Kawara Jurobei　◇ Bloodedge Demon",
+    "tw": "◇ 梶原景時　◇ 河原卜郎兵衛　◇ 血刀修羅"
+  },
+  "自动发动（召水符）": {
+    "en": "Auto Trigger (Water Talisman)",
+    "tw": "自動發動（召水符）"
+  },
+  "正面与负面效果强化": {
+    "en": "Status Enhancement and Negative Effect Boost",
+    "tw": "正面與負面效果強化"
+  },
+  "一难横行（手臂防具）": {
+    "en": "Cursed Cavalcade (Arm Guards)",
+    "tw": "一難橫行（手臂防具）"
+  },
+  "无地形效果": {
+    "en": "No terrain effects",
+    "tw": "無地形效果"
+  },
+  "本次变化": {
+    "en": "Changes",
+    "tw": "本次變化"
+  },
+  "选择词条或修改基础信息，即可在这里核对。": {
+    "en": "Choose effects or edit basic details to review changes here.",
+    "tw": "選擇詞條或修改基礎資訊，即可在這里核對。"
+  },
+  "编辑已有绘卷": {
+    "en": "Edit the scrolls you own",
+    "tw": "編輯已有繪卷"
+  },
+  "修改绘卷等级、主副词条和当前可挑战次数，也可查看洗词条与添画预测。": {
+    "en": "Change levels, effects and remaining attempts. Preview effect rerolls and scroll repainting.",
+    "tw": "修改繪卷等級、主副詞條和當前可挑戰次數，也可查看洗詞條與添畫預測。"
+  },
+  "14 / 50 张绘卷": {
+    "en": "14 / 50 scrolls",
+    "tw": "14 / 50 張繪卷"
+  },
+  "⌕ 搜索收藏夹中的绘卷 ID、词条、恩宠或敌人": {
+    "en": "⌕ Search favorites by scroll ID, effect, grace, or enemy",
+    "tw": "⌕ 搜尋收藏夾中的繪卷 ID、詞條、恩寵或敵人"
+  },
+  "灵力增加量": {
+    "en": "Spirit Force Charge",
+    "tw": "靈力增加量"
+  },
+  "评分 95/100": {
+    "en": "Score 95/100",
+    "tw": "評分 95/100"
+  },
+  "强攻击伤害": {
+    "en": "Strong Attack Damage",
+    "tw": "強攻擊傷害"
+  },
+  "评分 87/100": {
+    "en": "Score 87/100",
+    "tw": "評分 87/100"
+  },
+  "精髓并存（武士）": {
+    "en": "Dual Mastery (Samurai)",
+    "tw": "精髓并存（武士）"
+  },
+  "评分 88/100": {
+    "en": "Score 88/100",
+    "tw": "評分 88/100"
+  },
+  "1 · 蛇骨婆": {
+    "en": "1 · Jakotsu-baba",
+    "tw": "1 · 蛇骨婆"
+  },
+  "2 · 镰鼬": {
+    "en": "2 · Kamaitachi",
+    "tw": "2 · 鐮鼬"
+  },
+  "3 · 大天狗": {
+    "en": "3 · Great Tengu",
+    "tw": "3 · 大天狗"
+  },
+  "属性伤害与异常状态累积增加": {
+    "en": "Elemental Damage and Status Ailment Build-up Boost",
+    "tw": "屬性傷害與異常狀態累積增加"
+  },
+  "优先掉落率上升（不动明王的恩宠）": {
+    "en": "Lucky Drop Rate Up (Grace of Acala)",
+    "tw": "優先掉落率上升（不動明王的恩寵）"
+  },
+  "追击和近身刺击伤害增加": {
+    "en": "Increased Final Blow/Grapple Damage",
+    "tw": "追擊和近身刺擊傷害增加"
+  },
+  "复制 ID": {
+    "en": "Copy ID",
+    "tw": "複製 ID"
+  },
+  "复制稀有度": {
+    "en": "Copy rarity",
+    "tw": "複製稀有度"
+  },
+  "复制 ID 和稀有度": {
+    "en": "Copy ID and rarity",
+    "tw": "複製 ID 和稀有度"
+  },
+  "装备品掉落率": {
+    "en": "Equipment Drop Rate",
+    "tw": "裝備品掉落率"
+  },
+  "防御时的属性攻击伤害降低": {
+    "en": "Decreased Elemental Damage Taken (Guarding)",
+    "tw": "防御時的屬性攻擊傷害降低"
+  },
+  "强攻击精力消耗降低": {
+    "en": "Strong Attack Ki Consumption",
+    "tw": "強攻擊精力消耗降低"
+  },
+  "布袋尊的恩宠": {
+    "en": "Grace of Hotei",
+    "tw": "布袋尊的恩寵"
+  },
+  "1 · 独脚踏鞴": {
+    "en": "1 · Ippon-Datara",
+    "tw": "1 · 獨腳踏鞴"
+  },
+  "4 · 濡女": {
+    "en": "4 · Nure-onna",
+    "tw": "4 · 濡女"
+  },
+  "2 · 独脚踏鞴": {
+    "en": "2 · Ippon-Datara",
+    "tw": "2 · 獨腳踏鞴"
+  },
+  "4 · 亡骸武者": {
+    "en": "4 · Skeleton Warrior",
+    "tw": "4 · 亡骸武者"
+  },
+  "3 · 妖鬼": {
+    "en": "3 · Yoki",
+    "tw": "3 · 妖鬼"
+  },
+  "5 · 狱卒鬼": {
+    "en": "5 · Jailer Oni",
+    "tw": "5 · 獄卒鬼"
+  },
+  "5 · 外道兵": {
+    "en": "5 · Aberrant Soldier",
+    "tw": "5 · 外道兵"
+  },
+  "优先掉落率上升（寿老人的恩宠）": {
+    "en": "Lucky Drop Rate Up (Grace of Jurojin)",
+    "tw": "優先掉落率上升（壽老人的恩寵）"
+  },
+  "负面效果持续时间延长": {
+    "en": "Extended Negative Effects",
+    "tw": "負面效果持續時間延長"
+  },
+  "自动发动（召风符）": {
+    "en": "Auto Trigger (Wind Talisman)",
+    "tw": "自動發動（召風符）"
+  },
+  "30 秒": {
+    "en": "30 sec",
+    "tw": "30 秒"
+  },
+  "合轴可继承稀有度": {
+    "en": "Rarity Inheritance (Scroll Transference)",
+    "tw": "合軸可繼承稀有度"
+  },
+  "评分 92/100": {
+    "en": "Score 92/100",
+    "tw": "評分 92/100"
+  },
+  "八幡神的恩宠": {
+    "en": "Grace of Hachiman",
+    "tw": "八幡神的恩寵"
+  },
+  "1 · 德川庆喜": {
+    "en": "1 · Tokugawa Yoshinobu",
+    "tw": "1 · 德川慶喜"
+  },
+  "2 · 盲侠鬼": {
+    "en": "2 · Blind Swordsman Oni",
+    "tw": "2 · 盲俠鬼"
+  },
+  "3 · 斋藤福": {
+    "en": "3 · Saito Fuku",
+    "tw": "3 · 齋藤福"
+  },
+  "自动发动（养身符）": {
+    "en": "Auto Trigger (Rejuvenation Talisman)",
+    "tw": "自動發動（養身符）"
+  },
+  "收藏、比较与批量添加": {
+    "en": "Collect, compare and add in batches",
+    "tw": "收藏、比較與批量添加"
+  },
+  "收藏需要的绘卷，按 ID、词条、恩宠或敌人查找，再加入购物车比较、选择和批量添加。": {
+    "en": "Save scrolls to your favorites. Search by ID, effects, graces or enemies, then compare and add them in batches.",
+    "tw": "收藏需要的繪卷，按 ID、詞條、恩寵或敵人查找，再加入購物車比較、選擇和批量添加。"
+  },
+  "恢复选中备份": {
+    "en": "Restore selected backup",
+    "tw": "恢復選中備份"
+  },
+  "刷新备份": {
+    "en": "Refresh backups",
+    "tw": "刷新備份"
+  },
+  "打开备份文件夹": {
+    "en": "Open backup folder",
+    "tw": "打開備份資料夾"
+  },
+  "移入回收站": {
+    "en": "Move to Recycle Bin",
+    "tw": "移入回收站"
+  },
+  "打开存档文件夹": {
+    "en": "Open save folder",
+    "tw": "打開存檔資料夾"
+  },
+  "打开数据文件夹": {
+    "en": "Open data folder",
+    "tw": "打開資料資料夾"
+  },
+  "更改数据目录": {
+    "en": "Change data folder",
+    "tw": "更改資料目錄"
+  },
+  "恢复默认目录": {
+    "en": "Reset data folder",
+    "tw": "恢復預設目錄"
+  },
+  "选择": {
+    "en": "Select",
+    "tw": "選擇"
+  },
+  "备份时间": {
+    "en": "Backup time",
+    "tw": "備份時間"
+  },
+  "操作": {
+    "en": "Action",
+    "tw": "操作"
+  },
+  "文件数": {
+    "en": "Files",
+    "tw": "檔案數"
+  },
+  "游戏内实时添加": {
+    "en": "Add in game",
+    "tw": "游戲內實時添加"
+  },
+  "修改存档": {
+    "en": "Edit save",
+    "tw": "修改存檔"
+  },
+  "绘卷实时修改": {
+    "en": "Edit scroll in game",
+    "tw": "繪卷實時修改"
+  },
+  "存档改签": {
+    "en": "Save resigning",
+    "tw": "存檔改簽"
+  },
+  "把其他账号（或朋友分享）的角色存档导入上方选中的存档位，并改成当前账号的签名，之后就能在这个账号下读取。": {
+    "en": "Import a character save shared by another account and re-sign it for your current account.",
+    "tw": "把其他帳號（或朋友分享）的角色存檔導入上方選中的存檔位，并改成當前帳號的簽名，之后就能在這個帳號下讀取。"
+  },
+  "选择要导入的存档…": {
+    "en": "Choose a save to import…",
+    "tw": "選擇要導入的存檔…"
+  },
+  "备份、恢复与存档改签": {
+    "en": "Back up, restore and re-sign saves",
+    "tw": "備份、恢復與存檔改簽"
+  },
+  "查看自动备份，恢复选中的存档；也可导入其他账号的角色存档，改签后在当前账号下读取。": {
+    "en": "Browse automatic backups and restore a previous save. Import a character save from another account and re-sign it for yours.",
+    "tw": "查看自動備份，恢復選中的存檔；也可導入其他帳號的角色存檔，改簽后在當前帳號下讀取。"
+  },
+  "下载 Nioh 3 Studio": {
+    "en": "Download Nioh 3 Studio",
+    "tw": "下載 Nioh 3 Studio"
+  },
+  "查看源码": {
+    "en": "View source",
+    "tw": "檢視原始碼"
+  },
+  "独脚踏鞴工作室 · Nioh 3 Studio": {
+    "en": "Ippon-Datara Studio · Nioh 3 Studio",
+    "tw": "獨腳踏鞴工作室 · Nioh 3 Studio"
+  },
+  "本工具由社区开发，与游戏官方无关联。": {
+    "en": "A community-made tool, not affiliated with the game’s developers or publishers.",
+    "tw": "本工具由社群開發，與遊戲官方無關。"
+  },
+  "更新日志": {
+    "en": "Changelog",
+    "tw": "更新日志"
+  },
+  "问题反馈": {
+    "en": "Report an issue",
+    "tw": "問題反饋"
+  },
+  "独脚踏鞴工作室 Nioh 3 Studio，《仁王3》PC 玩家工具箱，支持绘卷搜索与编辑、装备编辑、存档备份与恢复。": {
+    "en": "Nioh 3 Studio is a PC toolkit for Nioh 3. Find and edit scrolls, edit equipment, and back up or restore your saves.",
+    "tw": "獨腳踏鞴工作室 Nioh 3 Studio，《仁王3》PC 玩家工具箱，支持繪卷搜尋與編輯、裝備編輯、存檔備份與恢復。"
+  },
+  "链接与偏好": {
+    "en": "Links and preferences",
+    "tw": "鏈接與偏好"
+  },
+  "QQ群": {
+    "en": "QQ group",
+    "tw": "QQ群"
+  },
+  "选择语言": {
+    "en": "Choose language",
+    "tw": "選擇語言"
+  },
+  "语言": {
+    "en": "Language",
+    "tw": "語言"
+  },
+  "切换到深色模式": {
+    "en": "Switch to dark mode",
+    "tw": "切換到深色模式"
+  },
+  "绘卷搜索界面演示。静态界面展示，操作控件不可用。": {
+    "en": "Scroll search demo. Static interface; controls are not interactive.",
+    "tw": "繪卷搜尋界面演示。靜態界面展示，操作控件不可用。"
+  },
+  "复制蓝奏云密码": {
+    "en": "Copy Lanzou Cloud password",
+    "tw": "複製藍奏雲密碼"
+  },
+  "工具界面与介绍": {
+    "en": "Tool interfaces and descriptions",
+    "tw": "工具界面與介紹"
+  },
+  "选择工具界面": {
+    "en": "Choose a tool interface",
+    "tw": "選擇工具界面"
+  },
+  "上一个工具界面": {
+    "en": "Previous interface",
+    "tw": "上一個工具界面"
+  },
+  "下一个工具界面": {
+    "en": "Next interface",
+    "tw": "下一個工具界面"
+  },
+  "工具界面，可用左右方向键切换": {
+    "en": "Tool interfaces. Use the left and right arrow keys to switch.",
+    "tw": "工具界面，可用左右方向鍵切換"
+  },
+  "装备与道具界面：左侧为武器列表，右侧为装备属性与词条。。静态界面展示，操作控件不可用。": {
+    "en": "Equipment and items demo, with inventory and equipment details. Static interface; controls are not interactive.",
+    "tw": "裝備與道具界面：左側為武器列表，右側為裝備屬性與詞條。。靜態界面展示，操作控件不可用。"
+  },
+  "绘卷搜索界面：筛选条件、搜索结果及绘卷详细效果。。静态界面展示，操作控件不可用。": {
+    "en": "Scroll search demo, with filters, results and special effects. Static interface; controls are not interactive.",
+    "tw": "繪卷搜尋界面：篩選條件、搜尋結果及繪卷詳細效果。。靜態界面展示，操作控件不可用。"
+  },
+  "绘卷编辑界面：已有绘卷列表、基础信息编辑和修改预览。。静态界面展示，操作控件不可用。": {
+    "en": "Scroll editor demo, with owned scrolls, base stats and an edit preview. Static interface; controls are not interactive.",
+    "tw": "繪卷編輯界面：已有繪卷列表、基礎資訊編輯和修改預覽。。靜態界面展示，操作控件不可用。"
+  },
+  "收藏夹界面：多张已收藏绘卷并排展示，可搜索或加入购物车。。静态界面展示，操作控件不可用。": {
+    "en": "Favorites demo, with saved scrolls and cart controls. Static interface; controls are not interactive.",
+    "tw": "收藏夾界面：多張已收藏繪卷并排展示，可搜尋或加入購物車。。靜態界面展示，操作控件不可用。"
+  },
+  "存档管理界面：备份时间与操作记录，以及存档改签入口。。静态界面展示，操作控件不可用。": {
+    "en": "Save manager demo, with backup history and a save-resigning entry. Static interface; controls are not interactive.",
+    "tw": "存檔管理界面：備份時間與操作記錄，以及存檔改簽入口。。靜態界面展示，操作控件不可用。"
+  },
+  "项目链接": {
+    "en": "Project links",
+    "tw": "項目鏈接"
+  },
+  "已复制": {
+    "en": "Copied",
+    "tw": "已複製"
+  },
+  "群号已复制": {
+    "en": "Group number copied",
+    "tw": "群號已複製"
+  },
+  "群号已选中，可以手动复制": {
+    "en": "Group number selected. Copy it manually.",
+    "tw": "群號已選中，可以手動複製"
+  },
+  "密码已复制": {
+    "en": "Password copied",
+    "tw": "密碼已複製"
+  },
+  "密码已选中，可以手动复制": {
+    "en": "Password selected. Copy it manually.",
+    "tw": "密碼已選中，可以手動複製"
+  },
+  "切换到浅色模式": {
+    "en": "Switch to light mode",
+    "tw": "切換到淺色模式"
+  },
+  "仁王3修改器 · 装备与绘卷编辑工具": {
+    "tw": "仁王3修改器 · 裝備與繪卷編輯工具",
+    "en": "Nioh 3 Trainer · Equipment & Scroll Editor"
+  },
+  "Nioh3Studio - 仁王3修改器 | 绘卷、装备与存档编辑": {
+    "en": "Nioh3Studio - Nioh 3 Trainer | Scroll, Equipment & Save Editor",
+    "tw": "Nioh3Studio - 仁王3修改器 | 繪卷、裝備與存檔編輯"
+  },
+  "Nioh3Studio 是一款免费的仁王3 PC 修改工具，支持绘卷搜索与生成、装备词条编辑、游戏内实时修改、存档管理及备份恢复。": {
+    "en": "Nioh3Studio is a free PC tool for Nioh 3. Find and generate scrolls, edit equipment effects, make in-game changes, and manage, back up or restore saves.",
+    "tw": "Nioh3Studio 是一款免費的仁王3 PC 修改工具，支援繪卷搜尋與生成、裝備詞條編輯、遊戲內即時修改、存檔管理及備份還原。"
+  },
+  "Nioh 3 Studio：装备、绘卷与存档编辑工具": {
+    "en": "Nioh 3 Studio: equipment, scroll and save editing tools",
+    "tw": "Nioh 3 Studio：裝備、繪卷與存檔編輯工具"
+  },
+  "绘卷生成引擎": {
+    "en": "Scroll generation engine",
+    "tw": "繪卷生成引擎"
+  },
+  "从目标词条，": {
+    "en": "Start with your effects.",
+    "tw": "從目標詞條，"
+  },
+  "反推生成起点。": {
+    "en": "Find the seed.",
+    "tw": "反推生成起點。"
+  },
+  "引擎要点": {
+    "en": "Engine foundations",
+    "tw": "引擎要點"
+  },
+  "生成引擎原理": {
+    "en": "Generation engine internals",
+    "tw": "生成引擎原理"
+  },
+  "Seed 逆向": {
+    "en": "Seed inversion",
+    "tw": "Seed 逆向"
+  },
+  "冲突验证": {
+    "en": "Conflict checks",
+    "tw": "衝突驗證"
+  },
+  "生成复算": {
+    "en": "Generation replay",
+    "tw": "生成驗算"
+  },
+  "随机种子逆向求解": {
+    "en": "Rewinding the random state",
+    "tw": "隨機種子逆向求解"
+  },
+  "32 位线性同余运算可向前推进，也可沿同一条随机序列回溯。": {
+    "en": "The 32-bit linear congruential generator can advance or rewind along the same random sequence.",
+    "tw": "32 位元線性同餘運算可向前推進，也可沿同一條亂數序列回溯。"
+  },
+  "随机状态递推与逆运算公式": {
+    "en": "Random-state recurrence and inverse formulas",
+    "tw": "隨機狀態遞推與逆運算公式"
+  },
+  "源码节选": {
+    "en": "Source excerpt",
+    "tw": "原始碼節選"
+  },
+  "随机数推进与回溯源码": {
+    "en": "Source for RNG advance and rewind",
+    "tw": "亂數推進與回溯原始碼"
+  },
+  "筛掉互相冲突的词条": {
+    "en": "Rejecting conflicting effects",
+    "tw": "篩掉互相衝突的詞條"
+  },
+  "同组词条，或冲突掩码存在交集的词条，不能在这一规则下共存。": {
+    "en": "Effects in the same group, or with overlapping conflict masks, cannot coexist under this rule.",
+    "tw": "同組詞條，或衝突遮罩存在交集的詞條，不能在這項規則下共存。"
+  },
+  "词条冲突检查源码": {
+    "en": "Source for effect conflict checks",
+    "tw": "詞條衝突檢查原始碼"
+  },
+  "候选 Seed 仍需正向复算": {
+    "en": "Every candidate needs a forward replay",
+    "tw": "候選 Seed 仍需正向驗算"
+  },
+  "逆向搜索缩小范围，正向生成再检查结果。只有满足目标条件的候选才会保留。": {
+    "en": "Inversion narrows the search; forward generation checks the result. Only candidates that match the target constraints are kept.",
+    "tw": "逆向搜尋縮小範圍，正向生成再檢查結果。只有符合目標條件的候選才會保留。"
+  },
+  "候选 Seed": {
+    "en": "Candidate seed",
+    "tw": "候選 Seed"
+  },
+  "逆向求解得到的搜索候选": {
+    "en": "Candidates found by inversion",
+    "tw": "逆向求解得到的搜尋候選"
+  },
+  "重放随机序列与词条生成": {
+    "en": "Replay RNG and effect generation",
+    "tw": "重播亂數序列與詞條生成"
+  },
+  "按对应路径处理抽选、冲突与容量": {
+    "en": "Apply the path’s selection, conflict and capacity rules",
+    "tw": "依對應路徑處理抽選、衝突與容量"
+  },
+  "核对目标约束": {
+    "en": "Check target constraints",
+    "tw": "核對目標約束"
+  },
+  "检查主副词条、恩宠与所需数值": {
+    "en": "Check primary and secondary effects, Grace and required rolls",
+    "tw": "檢查主副詞條、恩寵與所需數值"
+  },
+  "保留匹配的候选": {
+    "en": "Keep matching candidates",
+    "tw": "保留符合條件的候選"
+  },
+  "对应路径的完整条件仍需验证": {
+    "en": "Validate the full conditions for the relevant path",
+    "tw": "對應路徑的完整條件仍需驗證"
+  },
+  "传统修改器可以直接修改绘卷的词条，但这些修改后的词条并不一定符合游戏原本的生成结果，因此往往无法通过联机分享给其他玩家。": {
+    "en": "Traditional trainers can edit a scroll’s effects directly. However, those edited effects may not match what the game would originally generate, so the scroll often cannot be shared with other players online.",
+    "tw": "傳統修改器可以直接修改繪卷的詞條，但這些修改後的詞條並不一定符合遊戲原本的生成結果，因此往往無法透過連線分享給其他玩家。"
+  },
+  "Nioh3Studio 采用了完全不同的技术路线。": {
+    "en": "Nioh3Studio takes a completely different technical approach.",
+    "tw": "Nioh3Studio 採用了完全不同的技術路線。"
+  },
+  "我们通过逆向工程，还原了《仁王3》的绘卷生成机制。玩家只需指定想要的恩宠、主副词条及其他条件，程序就会反向搜索能够生成目标绘卷的随机种子（Seed），并调用游戏原生生成函数，将对应的绘卷添加到玩家背包中。": {
+    "en": "Through reverse engineering, we reconstructed Nioh 3’s scroll generation mechanism. Specify your desired Grace, primary and secondary effects, and other conditions. The program then searches backwards for a random seed that can generate the target scroll and calls the game’s native generation functions to add that scroll to your inventory.",
+    "tw": "我們透過逆向工程，還原了《仁王3》的繪卷生成機制。玩家只需指定想要的恩寵、主副詞條及其他條件，程式就會反向搜尋能夠生成目標繪卷的隨機種子（Seed），並呼叫遊戲原生生成函式，將對應的繪卷加入玩家背包中。"
+  },
+  "我们不是将词条强行拼接到绘卷上，而是让游戏按照自身的规则，生成一张原本就有可能存在的绘卷。": {
+    "en": "Instead of forcing effects onto a scroll, we let the game follow its own rules to generate a scroll that could have existed in the first place.",
+    "tw": "我們不是將詞條強行拼接到繪卷上，而是讓遊戲按照自身的規則，生成一張原本就有可能存在的繪卷。"
+  },
+  "这意味着，生成的绘卷不仅符合已还原的游戏规则，还能够通过正常的联机机制分享给其他玩家。": {
+    "en": "This means the generated scroll follows the game rules we have reconstructed and can also be shared with other players through the game’s normal online mechanisms.",
+    "tw": "這意味著，生成的繪卷不僅符合已還原的遊戲規則，還能夠透過正常的連線機制分享給其他玩家。"
+  },
+  "装备生成": {
+    "en": "Equipment generation",
+    "tw": "裝備生成"
+  },
+  "按目标词条搜索种子，预览并批量添加生成的装备。": {
+    "en": "Search seeds for your chosen effects, preview results and add generated equipment in batches.",
+    "tw": "依目標詞條搜尋種子，預覽並批次加入生成的裝備。"
+  },
+  "收藏栏": {
+    "en": "Favorites",
+    "tw": "收藏欄"
+  },
+  "收藏绘卷与装备，快速查找，也可导入或分享装备配装码。": {
+    "en": "Save scrolls and equipment for quick access, and import or share equipment loadout codes.",
+    "tw": "收藏繪卷與裝備，快速查找，也可匯入或分享裝備配裝碼。"
+  },
+  "装备种子搜索": {
+    "en": "Equipment seed search",
+    "tw": "裝備種子搜尋"
+  },
+  "装备词条生成": {
+    "en": "Equipment effect generation",
+    "tw": "裝備詞條生成"
+  },
+  "装备生成 · 种子搜索": {
+    "en": "Equipment generation · Seed search",
+    "tw": "裝備生成 · 種子搜尋"
+  },
+  "逐个生成候选装备，跳过空结果，保留同时满足目标词条的种子。": {
+    "en": "Generate equipment for each candidate seed, skip empty results and keep seeds that match all requested effects.",
+    "tw": "逐一生成候選裝備，略過空結果，保留同時符合目標詞條的種子。"
+  },
+  "装备生成 · 词条生成": {
+    "en": "Equipment generation · Effect generation",
+    "tw": "裝備生成 · 詞條生成"
+  },
+  "按候选词条的权重抽选，再生成数值并写入装备词条。": {
+    "en": "Select from weighted effect candidates, then roll values and write the equipment effects.",
+    "tw": "依候選詞條的權重抽選，再生成數值並寫入裝備詞條。"
+  },
+  "装备种子搜索源码": {
+    "en": "Equipment seed-search source",
+    "tw": "裝備種子搜尋原始碼"
+  },
+  "装备词条生成源码": {
+    "en": "Equipment effect-generation source",
+    "tw": "裝備詞條生成原始碼"
+  }
+}
